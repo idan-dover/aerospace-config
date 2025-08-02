@@ -129,8 +129,8 @@ automatically-unhide-macos-hidden-apps = false
     alt-9 = 'workspace 9'
     alt-d = 'workspace D' # D is for "Desktop" workspace
 
-    alt-right = 'workspace next --wrap-around'
-    alt-left = 'workspace prev --wrap-around'
+    alt-m = 'workspace next --wrap-around'
+    alt-n = 'workspace prev --wrap-around'
 
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace

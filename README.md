@@ -46,8 +46,8 @@ AeroSpace is a powerful, keyboard-centric tiling window manager for macOS, inspi
 - `alt-equal`: Resize smart +100
 - `alt-1` to `alt-9`: Switch to workspace 1-9
 - `alt-d`: Switch to workspace D (Desktop)
-- `alt-right`: Workspace next (wrap-around)
-- `alt-left`: Workspace prev (wrap-around)
+- `alt-m`: Workspace next (wrap-around)
+- `alt-n`: Workspace prev (wrap-around)
 - `alt-shift-1` to `alt-shift-9`: Move node to workspace 1-9
 - `alt-shift-d`: Move node to workspace D
 - `alt-f`: Toggle fullscreen
