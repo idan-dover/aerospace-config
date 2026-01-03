@@ -194,7 +194,7 @@ automatically-unhide-macos-hidden-apps = false
     shift-down = ['volume set 0', 'mode main']
 
 [mode.apps.binding]
-    t = ['exec-and-forget open -a iterm', 'mode main']
+    t = ['exec-and-forget open -a Ghostty', 'mode main']
     s = ['exec-and-forget open -a "System Settings"', 'mode main']
     l = ['exec-and-forget open -a Slack', 'mode main']
     p = ['exec-and-forget open -a Postman', 'mode main']
@@ -230,6 +230,11 @@ automatically-unhide-macos-hidden-apps = false
 [[on-window-detected]]
     # iTerm2
     if.app-id = 'com.googlecode.iterm2'
+    run = 'move-node-to-workspace 3'
+
+[[on-window-detected]]
+    # Ghostty
+    if.app-id = 'com.mitchellh.ghostty'
     run = 'move-node-to-workspace 3'
 
 [[on-window-detected]]
