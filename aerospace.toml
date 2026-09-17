@@ -104,7 +104,7 @@ automatically-unhide-macos-hidden-apps = false
     alt-comma = 'layout accordion horizontal vertical'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#focus
-    alt-h = 'focus left'
+    alt-h = 'focus dfs-prev --wrap-around'
     alt-j = 'focus down'
     alt-k = 'focus up'
     alt-l = 'focus dfs-next --wrap-around'
